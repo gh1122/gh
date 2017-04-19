@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>省市区三级联动(jQuery+Json)</title>
+
+</head>
+<body>
+
+</body>
+
+<script type="text/javascript">
+	
+//	var person = {
+//		name:'郭浩',
+//		age:'25',
+//		gender:'男',
+//		
+//	}
+
+	//   for  in  与   for of
+	var arr = [{a:1},{b:2},{c:3},{d:4}]
+	for(var v in arr){
+		console.log(v);
+	}
+	for(var item of arr){
+		console.log(item);
+	}
+	
+	var person = {};
+		Object.defineProperty(person,'name',{
+			value: 'jack',
+			writable: false,//设置为false该属性变为只读
+			configurable: false,//不可配置
+			enumerable: true //可枚举
+			//在JavaScript中，对象的属性分为可枚举和不可枚举之分，它们是由属性的enumerable值决定的。可枚举性决定了这个属性能否被for…in查找遍历到。
+			
+		})
+		
+		console.log(person.name);
+		person.name = 'mike';
+		console.log(person.name);
+	
+	
+</script>
+
+
+</html>

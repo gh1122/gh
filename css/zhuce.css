@@ -1,0 +1,142 @@
+.hbig1{
+	background:#f2f2f2;
+	max-width: 1440px;
+	margin-bottom: 20px;
+}
+.hbig1 a{
+	color:#ec3e7d;
+	text-decoration: underline;
+}
+.hbig1 li{
+	background:#f2f2f2;
+}
+.hbig2{
+	width: 1090px;
+	margin: 0 auto;
+}
+
+.header{
+	min-width: 1423px;
+}
+.main{
+	width: 1090px;
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: hidden;
+	
+}
+.main>div{
+	float: left;
+}
+.main-r{
+	width: 350px;
+    padding: 35px;
+    margin-right: 68px;
+    box-shadow: 0 0 5px #e1e1e1, 0 0 15px #e1e1e1;
+}
+.main-l{
+	margin-top: 35px;
+}
+.zhuce-t{
+	padding-bottom: 30px;
+}
+.zhuce-t{
+	overflow: ;
+}
+.zc1{
+	color: #5a5d6c;
+    font-weight: normal;
+    font-size: 21px;
+}
+.zc2{
+	color: #5a5d6c;
+	font-size: 12px;
+	float: right;
+}
+.zc2 a{
+	color: #ec3e7d;
+	margin-left: 3px;
+    margin-right: 3px;
+    
+}
+.zhanghao{
+	margin-bottom: 30px;
+}
+.zhanghao input{
+	height: 36px;
+	width: 340px;
+	border: 1px solid #999;
+	
+}
+.zhanghao input:hover{
+	border-color: #f9a0b4;
+    box-shadow: 0 0 5px #fbb4b0;
+}
+
+.mima input{
+	height: 36px;
+	width: 340px;
+	border: 1px solid #999;
+	
+}
+.mima input:hover{
+	border-color: #f9a0b4;
+    box-shadow: 0 0 5px #fbb4b0;
+}
+.mima{
+	margin-bottom: 30px;
+}
+.mima-again input{
+	height: 36px;
+	width: 340px;
+	border: 1px solid #999;
+	
+}
+.mima-again input:hover{
+	border-color: #f9a0b4;
+    box-shadow: 0 0 5px #fbb4b0;
+}
+.mima-again{
+	margin-bottom: 30px;
+}
+.yanzhengma input{
+	height: 36px;
+	width: 130px;
+	border: 1px solid #999;
+	
+}
+.yanzhengma{
+	margin-bottom:30px ;
+}
+.yanzhengma input:hover{
+	border-color: #f9a0b4;
+    box-shadow: 0 0 5px #fbb4b0;
+}
+.yanzhengma img{
+	height: 36px;
+	vertical-align: top;
+}
+.yanzhengma a{
+	color: #000000;
+	font-size: 12px;
+}
+.tongyi{
+	font-size: 12px;
+	color: black;
+	margin-bottom: 30px;
+}
+.tongyi a{
+	font-size: 12px;
+	color: black
+}
+.tj button{
+	display: block;
+    width: 100%;
+    background: #ec3e7d;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration:none;
+    outline:none;
+}

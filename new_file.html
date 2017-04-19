@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		//可以进行行参记忆，减少形参数量，延长形参生命周期
+//		function add(x) {
+// 			return function(y) {
+// 				return (x+y);
+// 			}
+//		}
+//		var sum = add(2);
+//		sum(5);
+//		console.log(add());
+//		console.log(sum(5));
+		
+//		var module = (function() {
+//	 		var name = '123';
+//	 		function init() {
+//	 			console.log(name);
+//	 		}
+//	 		return {
+//	 			getname:init
+//	 		}
+//		})() 
+//		module.getname();
+
+
+		function Man(name,age) {
+ 			this.name = name;
+ 			this.age = age;
+		} 
+		var person = new Man('tom',19);
+		console.log(person.name);
+		
+		
+		
+		function Woman(name,age) {
+ 			this.sex = 'woman';
+ 			Man.call(this,name,age);//call改变this的指向，this的值就是取传入对象的值
+		} 
+//		Woman.prototype = Man.prototype;
+		var person1 = new Woman('july',20);
+		
+		person1.name;
+		person1.age;
+		person1.sex;
+		console.log(person1.sex);
+		console.log(person1.name);
+		console.log(person1.age);
+	</script>
+</html>

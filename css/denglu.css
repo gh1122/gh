@@ -1,0 +1,151 @@
+#header.#main{
+	
+	min-width: 1423px;
+}
+
+
+.hbig1{
+	background:#f2f2f2;
+	max-width: 1440px;
+	margin-bottom: 20px;
+
+}
+.htb{
+	width: 1200px;
+	margin: 0 auto;
+}
+.hbig1 a{
+	color:#ec3e7d;
+	text-decoration: underline;
+}
+.hbig1 li{
+	background:#f2f2f2;
+}
+.hbig2{
+	width: 1090px;
+	margin: 0 auto;
+}
+.main{
+	width: 1090px;
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: hidden;
+}
+.main>div{
+	float: left;
+}
+.main-r{
+	width: 350px;
+    padding: 35px;
+    margin-right: 68px;
+    box-shadow: 0 0 5px #e1e1e1, 0 0 15px #e1e1e1;
+}
+.main-l{
+	margin-top: 35px;
+}
+.login-t{
+	padding-bottom: 30px;
+}
+.lgt1{
+	color: #5a5d6c;
+    font-weight: normal;
+    font-size: 21px;
+}
+.lgt2{
+	color: #5a5d6c;
+	font-size: 12px;
+	float: right;
+}
+.lgt2 a{
+	color: #ec3e7d;
+	margin-left: 3px;
+    margin-right: 3px;
+    font-size: 12px;
+}
+
+.yonghu{
+	margin-bottom: 30px;
+	position: relative;
+}
+.cue1,.cue2{
+	position: absolute;
+    top: 38px;
+    left: 0;
+    padding: 0;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    font-size: 12px;
+    display: none;
+}
+.yonghu input{
+	height: 36px;
+	width: 310px;
+	border: 1px solid #999;
+	background:url(../img/zhanghao.png) no-repeat bottom 5px left;
+	padding-left: 30px;
+}
+.yonghu input:hover{
+	border-color: #f9a0b4;
+    box-shadow: 0 0 5px #fbb4b0;
+}
+.mima input{
+	height: 36px;
+	width: 310px;
+	border: 1px solid #999;
+	background:url(../img/mima.png) no-repeat bottom 3px left;
+	padding-left: 30px;
+}
+.mima input:hover{
+	border-color: #f9a0b4;
+    box-shadow: 0 0 5px #fbb4b0;
+}
+.mima{
+	margin-bottom: 30px;
+	position: relative;
+}
+.jizhu{
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.jizhu a{
+	color: #ec3e7d;
+	margin-left: 3px;
+    margin-right: 3px;
+    font-size: 12px;
+}
+.dl{
+	margin-bottom: 30px;
+}
+.dl button{
+	display: block;
+    width: 100%;
+    background: #ec3e7d;
+    line-height: 40px;[]
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration:none;
+    outline:none;
+}
+
+.disan{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.qwz{
+	overflow: hidden;
+}
+.qwz>li{
+	float: left;
+	margin-right: 20px;
+}
+.qwz>li a{
+	color: #000000;
+	font-size: 12px;
+	
+}
+.qwz>li img{
+	vertical-align:middle
+}
+
